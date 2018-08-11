@@ -1,0 +1,25 @@
+{
+  "name": "mass-file-renamer",
+  "version": "1.0.0",
+  "description": "Rename files in directory recursively",
+  "main": "index.js",
+  "repository": "https://github.com/tiaanduplessis/mass-file-renamer",
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "dependencies": {
+    "read-dir-deep": "^1.0.4"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "env": {
+      "jest": true
+    }
+  }
+}
