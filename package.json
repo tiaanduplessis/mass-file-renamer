@@ -7,7 +7,7 @@
   "author": "Tiaan du Plessis",
   "license": "MIT",
   "dependencies": {
-    "read-dir-deep": "^1.0.4"
+    "read-dir-deep": "^7.0.1"
   },
   "scripts": {
     "lint": "standard --fix",
