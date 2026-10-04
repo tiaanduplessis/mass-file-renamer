@@ -4,7 +4,7 @@ const path = require('path')
 const readDirDeep = require('read-dir-deep')
 
 function massFileRenamer ({dir = '.', ignore = [], renamer = (_, oldName) => oldName} = {}) {
-  const dirName = path.join(process.cwd(), dir)
+  const dirName = path.resolve(process.cwd(), dir)
   return readDirDeep(dirName).then((files) => {
     const filteredFiles = files.filter(file => !ignore.includes(file))
     return filteredFiles.forEach(file => {

@@ -27,6 +27,9 @@ $ yarn add mass-file-renamer
 
 ## Usage
 
+`dir` can be an absolute path or a path relative to the current working directory.
+It defaults to `'.'` when omitted.
+
 ```js
 const massFileRenamer = require('mass-file-renamer')
 
